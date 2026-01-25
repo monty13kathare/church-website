@@ -72,38 +72,7 @@ const MembersSection = () => {
     >
       {/* Background Elements */}
       <div className="absolute inset-0">
-        {/* Family Pattern */}
-        {/* <div className="absolute inset-0 opacity-10">
-          <div 
-            className="absolute inset-0" 
-            style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 20L50 40H70L55 60L60 70L40 55L20 70L25 60L10 40H30L40 20Z' fill='%23f59e0b'/%3E%3C/svg%3E")`,
-              backgroundSize: '80px 80px',
-            }} 
-          />
-        </div> */}
-         {/* <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `linear-linear(to right, #f59e0b 1px, transparent 1px),
-                              linear-linear(to bottom, #f59e0b 1px, transparent 1px)`,
-            backgroundSize: '50px 50px',
-          }} />
-        </div> */}
-        
-        {/* Floating Icons */}
-        {/* {[...Array(4)].map((_, i) => (
-          <div
-            key={i}
-            className={`absolute text-amber-500/10 ${i % 2 === 0 ? 'text-7xl' : 'text-9xl'} animate-float-slow`}
-            style={{
-              left: `${15 + i * 15}%`,
-              top: `${20 + i * 10}%`,
-              animationDelay: `${i * 2}s`,
-            }}
-          >
-            {i % 2 === 0 ? '👨‍👩‍👧‍👦' : '❤️'}
-          </div>
-        ))} */}
+     
         
         {/* linear Orbs */}
         <div className="absolute top-1/4 right-1/4 w-80 h-80 bg-linear-to-br from-amber-600/10 to-amber-400/5 rounded-full blur-3xl" />
