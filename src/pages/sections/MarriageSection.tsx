@@ -24,7 +24,7 @@ import BiodataCard from "@/components/cards/BiodataCard";
 import BiodataFilters from "@/components/BiodataFilters";
 
 const MarriageSection = () => {
-  const [selectedGender, setSelectedGender] = useState<'Male' | 'Female' | 'All'>('All');
+  const [selectedGender, setSelectedGender] = useState<'Male' | 'Female' | 'All'>('Male');
   const [selectedBiodata, setSelectedBiodata] = useState<Biodata | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
@@ -165,7 +165,7 @@ const MarriageSection = () => {
           {/* Tabs */}
           <Tabs defaultValue="Female" className="mb-8">
             <TabsList className="grid grid-cols-3 mb-8 bg-gray-900/50 ">
-              <TabsTrigger 
+              {/* <TabsTrigger 
                 value="All" 
                 className="text-gray-300 data-[state=active]:bg-linear-to-r data-[state=active]:from-blue-600 data-[state=active]:to-blue-700"
                 onClick={() => setSelectedGender('All')}
@@ -174,7 +174,7 @@ const MarriageSection = () => {
                   <Users className="w-4 h-4" />
                   All ({stats.total})
                 </span>
-              </TabsTrigger>
+              </TabsTrigger> */}
               <TabsTrigger 
                 value="Male" 
                 className="text-gray-300 data-[state=active]:bg-linear-to-r data-[state=active]:from-blue-600 data-[state=active]:to-blue-700"

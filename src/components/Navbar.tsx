@@ -25,7 +25,7 @@ const navLinks = [
       { name: "Images", href: "images" },
     ]
      },
-  { name: "Events", href: "events" },
+  // { name: "Events", href: "events" },
 
   { name: "Contact", href: "contact" },
 ];
